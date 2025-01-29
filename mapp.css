@@ -1,0 +1,97 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1B3C59;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    color: #fff8f8;
+  }
+
+  
+        .kaieata {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        .map-kaieata {
+            width: 100%;
+            height: 450px;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .slider-kaieata {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+        .atoll-list {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            gap: 20px;
+        }
+        .atoll-item {
+            min-width: 220px;
+            background-color: #e1f2f6;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            color: #34495e;
+        }
+        .atoll-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .atoll-item strong {
+            font-weight: 600;
+            color: #34495e;
+        }
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 24px;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .nav-arrow-left {
+            left: 20px;
+        }
+        .nav-arrow-right {
+            right: 20px;
+        }
+        .nav-arrow:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .location-info {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 30px;
+        }
